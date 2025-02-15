@@ -27,7 +27,7 @@
 	if r.Method != "GET" {
 		http.Error(w, "Method is not supported", http.StatusNotFound)
 	}
-	fmt.Fprintf(w, "Hello")
+	fmt.Fprintf(w, "Hello Programmer")
  }
 
  func main() {
